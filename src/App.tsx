@@ -1,8 +1,9 @@
+import Grid from "./Grid";
 
 function App() {
   return (
     <div className="App">
-      Wordle!
+      <Grid word={"wordd"} />
     </div>
   );
 }
